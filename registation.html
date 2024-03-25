@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registation form</title>
+    <style>
+        
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    /* background-color: #89baf3;  */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+                       rgba(0, 0, 0, 0.5)),url("https://miro.medium.com/max/1200/1*xMuIOwjliGUPjkzukeWKfw.jpeg");  
+    background-repeat:no-repeat ;
+    background-size: cover;  
+    font-size:large; 
+    color:white;
+    width: 100%;
+    height: 100vh;
+}
+
+.form-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box; 
+    border: 2px solid white; 
+    position: relative;
+    justify-content: center;
+    align-items: center;
+  
+}
+.form1 p{
+    font-size: 30px;
+}
+.form2 p{
+    font-size: 30px;
+}
+h1{
+    text-align: center;
+}
+
+
+    </style>
+</head>
+<h1>Registation Form</h1>
+<body>
+  <div  class="form-container">
+    <form action="" class="form1" target="_blank">
+        <p>Use this form to register for your vacation. Please register your legal name as it will appear on your passport.</p>
+        <table>
+            <tr>
+                <td><label for="name">Full name</label></td>
+                <td><input type="text" name="name" id="nameid"> </td>
+            </tr>
+            <tr>  
+                <td><label for="email">Email</label> </td>
+                <td> <input type="email" name="email" id="emailid"></td>     
+            </tr>
+            <tr>  
+                <td><label for="dob">Dat-of-Birth</label> </td>
+                <td> <input type="date" name="dob" id="dobid"></td>     
+            </tr>
+            <tr>  
+                <td><label for="pnumber">Phone Number</label> </td>
+                <td> <input type="number" name="pnumber" id="pnumberid"></td>     
+            </tr>
+            <tr>  
+                <td><label for="address">Address</label> </td>
+                <td> <input type="text" name="address" id="addressid"></td>     
+            </tr>
+            <tr>
+                <td><label for="name2">Guest #2 Full Name</label></td>
+                <td><input type="text" name="name2" id="name2id"> </td>
+            </tr>
+            <tr>  
+                <td><label for="dob2">Dat-of-Birth</label> </td>
+                <td> <input type="date" name="dob2" id="dob2id"></td>     
+            </tr>
+            <tr>
+                <td><label for="name3">Guest #3 Full Name</label></td>
+                <td><input type="text" name="name3" id="name3id"> </td>
+            </tr>
+            <tr>  
+                <td><label for="dob3">Dat-of-Birth</label> </td>
+                <td> <input type="date" name="dob3" id="dob3id"></td>     
+            </tr>
+            <tr>
+                <td><label for="name4">Guest #4 Full Name</label></td>
+                <td><input type="text" name="name4" id="name4id"> </td>
+            </tr>
+            <tr>  
+                <td><label for="dob4">Dat-of-Birth</label> </td>
+                <td> <input type="date" name="dob4" id="dob4id"></td>     
+            </tr>
+        </table>
+    </form>
+   
+    <form action="" class="form2">
+        <p>Travel Information</p>
+        <table>
+            <tr>
+                <td><label for="hotel">Cruise or Air / Hotel</label></td>
+                <td><select name="hotel" id="selectid1">
+                    <option value="">Please select</option>
+                    <option value="cruise" >Cruise</option>
+                    <option value="air/hostel">Air/Hostel</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label for="cabinA">Cabin Type A</label></td>
+                <td><select name="cabinA" id="selectid2">
+                    <option value="">Please select</option>
+                    <option value="single" >Single</option>
+                    <option value="double">Double</option>
+                    <option value="trible">Trible</option>
+                    <option value="quad">Quad</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label for="cabinB">Cabin Type B</label></td>
+                <td><select name="cabinB" id="selectid3">
+                    <option value="">Please select</option>
+                    <option value="single" >Inside</option>
+                    <option value="double">OsceanView</option>
+                    <option value="trible">Balcony</option>
+                    <option value="quad">Suite</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label for="bedding">Hotel Bedding</label></td>
+                <td><select name="bedding" id="selectid4">
+                    <option value="">Please select</option>
+                    <option value="double" >Double</option>
+                    <option value="king">King</option>
+                    <option value="queen">Queen</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label for="dining">Cruise dining choice</label></td>
+                <td><select name="dining" id="selectid5">
+                    <option value="">Please select</option>
+                    <option value="6pm" >6pm</option>
+                    <option value="8pm">8pm</option>
+                    <option value="my time">My time</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label for="insuranace">Do you want travel insurnace?</label></td>
+                <td><select name="insurnace" id="selectid6">
+                    <option value="">Please select</option>
+                    <option value="yes" >Yes</option>
+                    <option value="no">No</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label for="cost">Total trip cost</label></td>
+                <td><input type="text" name="cost" id="costid"></td>
+            </tr>
+            <tr>
+                <td><label for="addinfo">Emergency contact names and number</label></td>
+                <td><textarea name="addinfo" id="textareaid" cols="30" rows="10"></textarea></td>
+            </tr>
+
+
+            
+
+
+
+
+        </table>
+    </form>
+</div>
+</body>
+</html>
